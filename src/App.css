@@ -4,10 +4,9 @@
     justify-content: center;
 }
 .calc-title{
-    grid-column: 1/4;
+    grid-column: 1/-1;
     justify-self:center ;
 }
 .container{
     grid-column: 3/10;
-    
 }

@@ -4,12 +4,13 @@ import buttons from './Buttons'
 
 function Calculator() {
 
-  
-
-   const  [Input, setInput] = useState('0')
    
+
+   const  [Input, setInput] = useState("")
+ 
    const handleclick  = (e) =>{
         const val = e.target.value;
+
         switch(val){
             case "C":
                 setInput('')
@@ -17,15 +18,24 @@ function Calculator() {
             case "<=":
                 setInput((newValue) => newValue.slice(0,-1))
                 break
+            case "=":
+                try {
+                    setInput(eval(Input))
+                } catch (error) {
+                    setInput("Error - Invalid Operation")
+                }
+                
+                
+                break
             default:
-                setInput(prev=>prev+val)
-
+                setInput(prev=>prev+=val)
         }
    }
+   
 
     return (
         <Wrapper>
-            <input type='text' value={Input} readOnly/> 
+            <input type='text' value={Input}  readOnly/> 
            {buttons.map(element=>{
                const {id, name, icon} = element;
                return(
@@ -34,6 +44,7 @@ function Calculator() {
                    </button>
                )
            })}
+           <div></div>
         </Wrapper>        
     )
 }

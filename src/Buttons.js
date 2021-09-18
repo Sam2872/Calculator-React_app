@@ -30,7 +30,8 @@ const buttons =[
     },
     {
         id:8,
-        name:"x"
+        name:"*",
+        icon:"fas fa-times"
     },
     {
         id:9,
