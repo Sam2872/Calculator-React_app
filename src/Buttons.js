@@ -14,7 +14,8 @@ const buttons =[
     },
     {
         id:4,
-        name:"C"
+        name:"C",
+        color:"color"
     },
     {
         id:5,
@@ -79,7 +80,8 @@ const buttons =[
     },
     {
         id:20,
-        name:"="
+        name:"=",
+        op:"disabled"
     },
 ]
 

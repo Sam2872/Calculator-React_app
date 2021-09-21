@@ -10,3 +10,8 @@
 .container{
     grid-column: 3/10;
 }
+@media screen and (max-width:500px) {
+    .container{
+        grid-column: 2/-2;
+    }
+}
