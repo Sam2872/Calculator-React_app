@@ -2,12 +2,14 @@ const buttons =[
     {
         id:1,
         name:"%",
-        icon:"fas fa-percent"
+        icon:"fas fa-percent",
+        color:"white"
     },
     {
         id:2,
         name:"/",
-        icon:"fas fa-divide"
+        icon:"fas fa-divide",
+        color:"white"
     },
     {
         id:3,

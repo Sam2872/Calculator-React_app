@@ -23,9 +23,9 @@
     border-radius:15px;
 
 }
-.calculator button :hover{
-        box-shadow: rgba(255, 255, 255, 0.1) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
-        cursor:pointer;
+.calculator button:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
+    cursor:pointer;
 }
 .calculator .pink{
     background-color:#EC4D7D;
