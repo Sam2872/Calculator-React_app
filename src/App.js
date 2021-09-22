@@ -6,7 +6,7 @@ function App() {
   
   return (
     <div className="App">
-          <h3 className='calc-title'>Calculator</h3>
+          <h3 className='calc-title'>Standard Calculator</h3>
       <section className='container'>
           <div className='calc-btns'>
           <Calculator/>

@@ -1,11 +1,13 @@
 const buttons =[
     {
         id:1,
-        name:"%"
+        name:"%",
+        icon:"fas fa-percent"
     },
     {
         id:2,
-        name:"/"
+        name:"/",
+        icon:"fas fa-divide"
     },
     {
         id:3,
@@ -15,7 +17,7 @@ const buttons =[
     {
         id:4,
         name:"C",
-        color:"color"
+        color:"pink"
     },
     {
         id:5,
@@ -48,7 +50,8 @@ const buttons =[
     },
     {
         id:12,
-        name:"-"
+        name:"-",
+        icon:"fas fa-minus"
     },
     {
         id:13,
@@ -64,7 +67,8 @@ const buttons =[
     },
     {
         id:16,
-        name:"+"
+        name:"+",
+        icon:"fas fa-plus"
     },
     {
         id:17,
@@ -81,7 +85,7 @@ const buttons =[
     {
         id:20,
         name:"=",
-        op:"disabled"
+        color:"blue"
     },
 ]
 

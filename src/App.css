@@ -4,14 +4,18 @@
     justify-content: center;
 }
 .calc-title{
-    grid-column: 1/-1;
+    grid-column: 3/10;
     justify-self:center ;
+    font-size: 2rem;
 }
 .container{
     grid-column: 3/10;
 }
 @media screen and (max-width:500px) {
-    .container{
-        grid-column: 2/-2;
+    .container, .calc-title{
+        grid-column: 1/-1;
+    }
+    .calc-title{
+        font-size: 1.6rem;
     }
 }
