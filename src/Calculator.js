@@ -37,6 +37,9 @@ function Calculator() {
             case "C":
                 setInput('')
                 break
+            case "Exp":
+                setInput(Input+"E")
+                break
             case "<=":
                 try {
                     var str = Input.toString();

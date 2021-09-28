@@ -74,7 +74,8 @@ const buttons =[
     },
     {
         id:17,
-        name:"+/-"
+        name:"Exp",
+      
     },
     {
         id:18,
